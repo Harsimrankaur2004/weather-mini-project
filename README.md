@@ -1,6 +1,6 @@
 # Weather App Mini Project
 
-<img src="screenshot.png" alt="Weather App" width="400"/>
+<img src="Screenshot.png" alt="Weather App" width="400"/>
 
 ## Description
 
@@ -53,3 +53,4 @@ This is a simple Weather App that allows users to check the current weather for 
 This project is licensed under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
