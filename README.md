@@ -8,7 +8,7 @@ This is a simple Weather App that allows users to check the current weather for 
 
 ## Live Project  
 You can view the deployed version here:  
-[🔗 Visit Website](https://weather-website-mini-project.netlify.app/)
+ 👉 [🔗 Visit Website](https://weather-website-mini-project.netlify.app/)
 
 ## Features
 
@@ -57,6 +57,7 @@ You can view the deployed version here:
 This project is licensed under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
 
