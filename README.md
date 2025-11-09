@@ -31,7 +31,7 @@ This is a simple Weather App that allows users to check the current weather for 
 
 1. Clone the repository:
    ```bash
-      git clone https://github.com/Harsimrankaur2004/weather-project
+      git clone https://github.com/Harsimrankaur2004/weather-mini-project
 
 
 2. Open index.html in your browser.
@@ -53,5 +53,6 @@ This is a simple Weather App that allows users to check the current weather for 
 This project is licensed under the MIT License.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
