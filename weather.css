@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  
+  background: #222;
+}
+
+.card{
+  background: linear-gradient(135deg, rgb(140, 140, 221), rgb(82, 158, 184), green);
+  width: 470px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 40px 35px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.search{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input{
+  height: 60px;
+  border-radius: 30px;
+  outline: 0;
+  flex: 1;
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  background: #ebfffc;
+  color: #555;
+  margin-right: 15px;
+}
+
+.search button{
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  outline: 0;
+  border: 0;
+  background: #ebfffc;
+  cursor: pointer;
+}
+
+.search button img{
+  width: 18px;
+}
+
+.error{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.weather{
+  margin-top: 20px;
+}
+
+.temp{
+  font-size: 80px;
+  font-weight: 550;
+}
+
+.city{
+  font-size: 45px;
+  margin-top: -6px;
+}
+
+.weather-detail-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-details{
+  width: 170px;
+}
+
+.humidity-col{
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.wind-col{
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.humidity-image, .wind-image{
+  width: 100%;
+}
+
+.humidity-image img, .wind-image img{
+  width: 70px;
+}
+
+.humidity-details, .wind-details{
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.humidity-per{
+  font-size: 30px;
+}
+
+.wind-details{
+  margin-top: 10px;
+  width: 170px;
+}
+
+.humidity, .wind, .wind-speed{
+  font-size: 25px;
+}
+
+.weather-image{
+  width: 200px;
+}
+
+.weather-image img{
+  width: 80%;
+}
+
+.weather-status{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  h1{
+    font-size: 30px;
+  }
+  .search input{
+    flex-direction: row;
+    width: 170px;
+  }
+
+  .humidity-image img, .wind-image img{
+    width: 50px;
+  }
+
+  .humidity-col, .wind-col{
+    width: 100px
+  }
+  .humidity-per, .humidity, .wind, .wind-speed{
+    font-size: 15px;
+  }
+
+  .wind-details{
+    width: 100px;
+  }
+  
+  .humidity-details{
+    width: 100px;
+  }
+
+  .weather-image{
+    width: 120px;
+  }
+
+
+  .temp{
+    font-size: 60px;
+  }
+
+  .city{
+    font-size: 35px;
+  }
+}
+

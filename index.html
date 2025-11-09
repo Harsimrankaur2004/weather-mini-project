@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="weather.css">
+
+  <title>Weather</title>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Weather Detector</h1>
+
+    <div class="search">
+      <input class="js-search-bar" type="text" placeholder="Enter city name/ default: New York" spellcheck="false">
+      <button class="js-search-button" >
+        <img src="images/search-icon.svg">
+      </button>
+    </div>
+
+    <div class="error js-error"> 
+    </div>
+
+    <div class="weather">
+      <p class="temp js-temp">19°C</p>
+      <p class="city js-city">New York</p>
+
+      <div class="weather-detail-box">
+        <div class="weather-details">
+
+          <div class="humidity-col">
+            <div class="humidity-image">
+              <img src="images/humidity.png">
+            </div>
+            <div class="humidity-details">
+              <p class="humidity-per js-humidity-per">80%</p>
+              <p class="humidity">Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind-col">
+            <div class="wind-image">
+              <img src="images/wind.png">
+            </div>
+            <div class="wind-details">
+              <p class="wind-speed js-wind-speed">2.44 km/h</p>
+              <p class="wind">Wind Speed</p>
+            </div>
+          </div>
+        </div>       
+
+        <div>
+          <div class="weather-image">
+            <img src="" class="js-weather-icon">
+          </div>
+  
+          <div class="js-weather-status weather-status">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
